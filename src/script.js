@@ -33,6 +33,6 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
   
-    document.body.insertBefore(addItemForm, shoppingList);
+    document.querySelector(".container").insertBefore(addItemForm, shoppingList); 
   });
   
